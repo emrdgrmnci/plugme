@@ -1,0 +1,112 @@
+
+    body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to bottom, #B6D0E2 0%, #91AEC1 100%);
+  }
+  h1 {
+    font-size: 2.875rem;
+    font-weight: 800;
+    color: #ff9500; /* Orange color for the h1 elements */
+  }
+  h2, h3 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #333333; /* Dark grey color for the h1 elements */
+    text-align: center;
+  }
+  p {
+    font-size: 1.10rem;
+    color: #333333; /* Medium grey color for paragraph text */
+    padding-left: 20px;
+  }
+  a {
+    color: #007BFF; /* Bright blue color for links */
+  }
+  .hero {
+    background: #8fb0c4; /* Placeholder color */
+    background-image: url('myenergi-unsplash.jpg');
+
+  background-size: cover;
+  background-position: center;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .features {
+    background: #ffffff; /* Placeholder color */
+    padding: 20px;
+    text-align: center;
+  }
+
+  .faq {
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  }
+  .faq h2 {
+    color: #373737;
+    font-size: 2em;
+  }
+  .accordion-button {
+    font-weight: bold;
+    color: #000000;
+  }
+  .accordion-content {
+    color: #ffffff;
+  }
+
+    .cta {
+        background: #8fb0c4; /* Placeholder color */
+        padding: 50px 20px;
+        text-align: center;
+        background-image: url('myenergi-unsplash.jpg');
+    }
+
+    .app-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .app-card {
+        background: #fff;
+        border: 1px solid #ccc;
+        padding: 20px;
+        text-align: center;
+    }
+  .accordion-item {
+  margin-bottom: 10px;
+  }
+  .accordion-button {
+  background-color: #8fb0c4;
+  border: 1px solid #D1D5DB;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  cursor: pointer;
+  }
+  .accordion-button[aria-expanded='true'] {
+  border-bottom: 1px solid transparent;
+  }
+  .accordion-button:after {
+  content: '\002B';
+  float: right;
+  }
+  .accordion-button[aria-expanded='true']:after {
+  content: '\2212';
+  }
+  .accordion-content {
+  border: 1px solid #D1D5DB;
+  border-top: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  }
+
+  .footer {
+      background: #fefefe; /* Placeholder color */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+  }
