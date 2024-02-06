@@ -24,7 +24,7 @@
   }
   .hero {
     background: #8fb0c4; /* Placeholder color */
-    background-image: url('myenergi-unsplash.jpg');
+    background-image: url('img/myenergi-unsplash.jpg');
 
   background-size: cover;
   background-position: center;
@@ -58,7 +58,7 @@
         background: #8fb0c4; /* Placeholder color */
         padding: 50px 20px;
         text-align: center;
-        background-image: url('myenergi-unsplash.jpg');
+        background-image: url('img/myenergi-unsplash.jpg');
     }
 
     .app-grid {
