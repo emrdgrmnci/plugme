@@ -1,7 +1,7 @@
 
     body {
     font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(to bottom, #B6D0E2 0%, #91AEC1 100%);
+    background: linear-gradient(to bottom, #B6D0E2 0%, #ffffff 100%);
   }
   h1 {
     font-size: 2.875rem;
@@ -23,13 +23,12 @@
     color: #007BFF; /* Bright blue color for links */
   }
   .hero {
-    background: #8fb0c4; /* Placeholder color */
-    background-image: url('img/myenergi-unsplash.jpg');
-
+  background: #ffffff; /* Placeholder color */
+  background-image: url('img/myenergi-unsplash.jpg');
   background-size: cover;
   background-position: center;
-    padding: 50px 20px;
-    text-align: center;
+  padding: 50px 20px;
+  text-align: center;
   }
 
   .features {
@@ -55,7 +54,7 @@
   }
 
     .cta {
-        background: #8fb0c4; /* Placeholder color */
+        background: #ffffff; /* Placeholder color */
         padding: 50px 20px;
         text-align: center;
         background-image: url('img/myenergi-unsplash.jpg');
@@ -78,7 +77,7 @@
   margin-bottom: 10px;
   }
   .accordion-button {
-  background-color: #8fb0c4;
+  background-color: #ffffff;
   border: 1px solid #D1D5DB;
   padding: 10px;
   width: 100%;
@@ -105,7 +104,7 @@
   }
 
   .footer {
-      background: #fefefe; /* Placeholder color */
+      background: #ffffff; /* Placeholder color */
       color: #fff;
       padding: 20px;
       text-align: center;
